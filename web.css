@@ -1,0 +1,1088 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+.wrapper 
+{
+  min-height: 840px;
+  width: 100%;
+}
+
+body 
+{
+  overflow-x: hidden;
+  font-family: 'Roboto';
+}
+
+/*header */
+
+.header 
+{
+  padding: 30px 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.inheader 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.gardenh 
+{
+  max-width: 236px;
+  max-height: 34px;
+}
+
+.gardenh img
+{
+  width: 100%;
+}
+
+
+.menuh 
+{
+  list-style: none;
+  display: flex;
+  padding-right: 150px;
+}
+.menuh li {
+  padding-right: 36px;
+}
+.menuh li:last-child {
+  padding-right: 0; 
+}
+.menuh li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 15px;
+  letter-spacing: 2.4px;
+}
+
+.flowerh
+{
+  display: block;
+  width: 260.93px;
+  height: 199.99px;
+  position: absolute;
+  right: 0px;
+  top:0;
+}
+
+.flowerh img
+{
+  width: 100%;
+}
+
+.redcr img
+{
+  width: 100%;
+}
+
+.bluecr img
+{
+  width: 100%;
+}
+
+.redcr
+{
+  display: block;
+  position: absolute;
+  width: 298px;
+  height: 216px;
+  left:0px;
+  top: 664px;
+}
+
+.bluecr
+{
+  display: block;
+  position: absolute;
+  width: 234.94px;
+  height: 231.04px;
+  top: 656px;
+  right:0px;
+}
+
+/* 1 block */
+
+.content1 {
+  padding: 110px 45px 45px 45px;
+  background: #171C8F;
+  width: 100%;
+}
+
+.body1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.women {
+  position: relative;
+}
+.women  img {
+  max-width: 100%;
+}
+
+.textg {
+  margin-left: 68px;
+}
+.textg h1 {
+  font-weight: 900;
+  font-size: 53px;
+  line-height: 84px;
+  letter-spacing: 7.65px;
+  color: #D7B9E4;
+  width: 414px;
+}
+.textg p {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 37px;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+  width: 338px;
+  padding: 20px 0px;
+}
+
+/* 2 block */
+
+.content2 
+{
+  height: 628px;
+  width: 100%;
+  background: #F4C3CC;
+}
+
+.body2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.kartoch3
+{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 1260px;
+  height: 447.97px;
+  top: 90.13px;
+  left: 130px;
+}
+
+.carr1
+{
+  position: absolute;
+  left:0;
+  top:0;
+}
+.carr1 div 
+{
+  padding-top: 20px;
+}
+.carr1 div:first-child
+{
+  padding-top: 0px;
+}
+
+
+.pinktext a
+{
+  padding-top: 37px;
+  background: #fff;
+  border-radius: 30px;
+  height: 30px;
+  width: 102px;
+}
+
+.pinktext a
+{
+  text-decoration: none;
+  padding: 7px 15px 8px 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 2.08px;
+  color: #EF3340;
+  text-transform: uppercase;
+
+}
+
+.bigtext h1
+{
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  letter-spacing: 4.159999847412109px;
+  color: #000000;
+  text-transform: uppercase;
+  width: 352px;
+}
+
+.minitext p
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  color: #000000;
+}
+
+.foto img 
+{
+  width: 100%;
+}
+
+.carr2
+{
+  position: absolute;
+  left:440px;
+}
+.carr2 div 
+{
+  padding-top: 20px;
+}
+.carr2 div:first-child
+{
+  padding-top: 0px;
+}
+
+.carr3
+{
+  position: absolute;
+  left:870px;
+}
+.carr3 div 
+{
+  padding-top: 20px;
+}
+.carr3 div:first-child
+{
+  padding-top: 0px;
+}
+
+.klik1{
+  display: inline-block;
+  border-radius: 0px 54px 54px 0px;
+  background: #fff;
+  color: #000;
+  font-size: 48px;
+  padding: 26px 17px 26px 3px;
+  line-height: 15px;
+  border: none;
+}
+.klik2{
+  display: inline-block;
+  color: #000;
+  font-size: 48px;
+  border-radius: 54px 0px 0px 54px;
+  background: #fff;
+  padding: 26px 3px 26px 17px;
+  line-height: 15px;  
+  border: none;
+}
+
+.ctrelki{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top:250px;
+  width: 100%;
+} 
+
+/* block 3 */
+
+.content3
+{
+  width: 100%;
+  background: #fff;
+  padding: 88px 120px;
+  position: relative;
+
+}
+
+.body3
+{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text
+{
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 84px;
+  letter-spacing: 7.65px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 144px;
+}
+
+.textic{
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.colonka{
+  flex: 0 0 40%;
+}
+.pngsh1{
+  margin-left: 40px;
+  width: 475px;
+}
+.pngsh2{
+  margin-left: 40px;
+  width: 475px;
+}
+
+.pngsh1 img{
+  max-width: 100%;
+}
+.pngsh2 img{
+  max-width: 100%;
+}
+.cart{
+   margin-bottom: 155px;
+}
+.cart:last-child{
+  margin-bottom: 0px;
+
+}
+
+.moreflower
+{
+  position: absolute;
+  width: 333px;
+  height: 476px;
+  top: 2345px;
+  left: 1187px;
+}
+
+
+/* block 4 */
+
+.content4
+{
+  width: 100%;
+  height: 863px;
+  background: #FFF4F0;
+  
+}
+
+.body4
+{
+  width: 1350px;
+  height: 664.67px;
+  top: 99.09px;
+  left: 45px;
+  position: relative;
+  justify-content: center;
+}
+
+.pingirl
+{
+  position: absolute;
+  top:0px;
+  left:-45px;
+}
+
+.pingirl img
+{
+  width: 100%;
+}
+
+.rep
+{
+  width: 675px;
+  height: 406px;
+  position: absolute;
+  top: 70px;
+  left: 680px;
+  padding-left: 60px;
+  justify-content: space-between;
+}
+
+.rep div
+{
+  padding-top: 30px;
+}
+
+.rep h1
+{
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: 5.119999885559082px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+
+  width: 470px;
+  height: 282px;
+}
+
+.rep p
+{
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: left;
+  color: #000000;
+
+  width: 517px;
+  height: 98px;
+}
+
+.rep a
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 45px;
+  background: #E16BA9;
+}
+
+.rep a
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 40px 16px 40px;
+}
+
+/* block 5 */
+
+.repeat{
+  width: 100%;
+  height: 69px;
+  background: #7BA4DB;
+  position: relative;
+}
+
+.repeat img
+{
+  position: absolute;
+  width: 100%;
+  height: 39px;
+  top: 15px;
+}
+
+.content5
+{
+  width: 100%;
+  height: 702px;
+  background: white;
+  position: relative;
+}
+
+.otext
+{
+  width: 800px;
+  height: 190px;
+  top: 100px;
+  left: 370px;
+  position: relative;
+  text-align: center;
+}
+
+.otext div
+{
+  padding-top: 30px;
+}
+.otext div:first-child
+{
+  padding-top: 0px;
+}
+
+.otext h1
+{
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: 5.119999885559082px;
+  text-align: center;
+  color: #000000;
+}
+
+.otext p
+{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: center;
+  color: #000000;
+}
+
+.text h3
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: center;
+  color: #000000;
+}
+
+.skrol
+{
+  width: 100%;
+  height: 331px;
+  position: absolute;
+  top:326.23px;
+  display: flex;
+}
+
+.skrol div
+{
+  padding-left: 72px;
+}
+ .skrol div:first-child
+ {
+  padding-left: 0px;
+ }
+
+ .tt img
+ {
+  width: 100%;
+ }
+ 
+.kliki{
+  display: inline-block;
+  border-radius: 0px 54px 54px 0px;
+  background: #fff;
+  color: #000;
+  font-size: 48px;
+  padding: 26px 17px 26px 3px;
+  line-height: 15px;
+  border: none;
+}
+.klikt{
+  display: inline-block;
+  color: #000;
+  font-size: 48px;
+  border-radius: 54px 0px 0px 54px;
+  background: #fff;
+  padding: 26px 3px 26px 17px;
+  line-height: 15px;  
+  border: none;
+}
+
+.ctrelki2{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top:450px;
+  width: 100%;
+} 
+ 
+/* block 6 */
+
+.content6
+{
+  width: 100%;
+  height: 547px;
+  background: #477A7B;
+}
+
+.verh
+{
+  width: 100%;
+  height: 173px;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.text_podtext
+{
+  width: 964.19px;
+  height: 82px;
+}
+
+.text_podtext h1
+{
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35.1px;
+  letter-spacing: 4.320000171661377px;
+  text-align: left;
+  width: 424px;
+  height: 36px;
+  color: #FFFFFF;
+}
+
+.text_podtext p
+{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: left;
+  width: 552px;
+  height: 33px;
+  padding-top: 15px;
+  color: #FFFFFF;
+}
+
+.lastklik a
+{
+  width: 236px;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  position: relative;
+  top:30px;
+}
+
+.lastklik a
+{
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: center;
+  color: #477A7B;
+  padding: 16px 40px 16px 40px;
+}
+
+.line
+{
+  height: 1px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.center
+{
+  width: 100%;
+  height: 302px;
+}
+
+.podcenter
+{
+  width: 1200px;
+  height: 200px;
+  position: relative;
+  top:50px;
+  left: 120px;
+  display: flex;
+}
+
+.slovmnogo
+{
+  width: 577.5px;
+  height: 200px;
+  position: absolute;
+  left: 322.5px;
+  display: flex;
+}
+
+.slovmnogo p
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.5px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.slovmnogo p:first-child
+{
+  padding-top: 0px;
+}
+
+.ctol2
+{
+  padding-left: 140px;
+}
+
+.adr
+{
+  width: 277.5px;
+  height: 96px;
+  width: 277.5px;
+  position: absolute;
+  left: 922.5px;
+}
+
+.adr p
+{
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32.3px;
+  letter-spacing: 0.1899999976158142px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 5px;
+}
+
+.ostatki
+{
+  width: 1099px;
+  height: 21px;
+  padding-left: 120px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.ostatki p
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.9800000190734863px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 8px;
+}
+
+.ostatki p:first-child
+{
+  font-weight: 700;
+  padding-left: 0px;
+}
+
+/* адаптация */
+
+@media(max-width: 1280px)
+{
+  /* для 1 блока */
+  .menuh{
+    padding-right: 44px;
+  }
+  .redcr{
+    top:600px;
+  }
+  .bluecr{
+    top: 590px;
+  }
+  
+  /* для 2 блока */
+
+  .foto img{
+    width: 95%;
+  }
+  .carr2{
+    left: 407px;
+  }
+  .carr3{
+    left: 804px;
+  }
+  .kartoch3 {
+    top: 124.13px;
+    left: 53px;
+  }
+
+  /* для 3 блока */
+
+  .moreflower {
+    left: 947px;
+  }
+  
+  /* для 4 блока */
+
+  .pingirl img {
+    width: 90%;
+  }
+  .rep {
+    margin-left: -80px;
+  }
+
+  /* для 5 блока */
+
+  .otext {
+    left: 263px;
+  }
+  .skrol div {
+    padding-left: 51px;
+  }
+
+  /* для 6 блока */
+
+  .text_podtext {
+    width: 744.19px;
+  }
+
+  .adr {
+    left: 819.5px;
+  }
+
+}
+
+@media(max-width: 1024px)
+{
+
+  /* для 1 блока */
+
+  .flowerh {
+    width: 245.93px;
+    height: 14.99px;
+  }
+  .textg h1 {
+    font-size: 43px;
+    line-height: 62px;
+    letter-spacing: 6.65px;
+    width: 403px;
+  }
+  .redcr {
+    width: 282px;
+    height: 201px;
+    top: 466px;
+  }
+  .bluecr {
+    top: 458px;
+  }
+
+  /* для 2 блока */
+
+  .foto img {
+    width: 78%;
+  }
+  .pinktext a {
+    font-size: 12px;
+  }
+  .carr1 div {
+    padding-top: 18px;
+  }
+  .bigtext h1 {
+    font-size: 19px;
+  }
+  .carr2 {
+    left: 332px;
+  }
+  .carr3 {
+    left: 654px;
+  }
+  .kartoch3 {
+    top: 145.13px;
+    left: 35px;
+  }
+
+  /* для 3 блока */
+
+  .text {
+    font-size: 43px;
+  }
+  .pngsh img {
+    max-width: 66%;
+  }
+  .cart {
+    margin-bottom: 47px;
+  }
+  .textic {
+    margin-top: 46px;
+    font-size: 26px;
+  }
+  .moreflower {
+    left: 691px;
+    top: 1439px;
+  }
+
+  /* для 4 блока */
+
+  .pingirl img {
+    width: 80%;
+  }
+  .rep {
+    margin-left: -158px;
+    top:7px;
+  }
+  .rep h1 {
+    font-size: 39px;
+    line-height: 63.4px;
+    width: 444px;
+    height: 249px;
+  }
+  .rep p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.55px;
+    width: 343px;
+    height: 130px;
+  }
+
+  /* для 5 блока */
+
+  .otext {
+    left: 115px;
+  }
+
+  .text_podtext h1 {
+    font-size: 22px;
+  }
+  .text_podtext p {
+    font-size: 16px;
+  }
+  .text_podtext {
+    width: 566.19px;
+  }
+  .lastklik a {
+    font-size: 12px;
+  }
+  .slovmnogo {
+    left: 209.5px;
+  }
+  .adr {
+    left: 640.5px;
+  }
+}
+
+@media(max-width: 412px)
+{
+  .flowerh img {
+    width: 63%;
+  }
+  .flowerh {
+    right: -92px;
+  }
+  .redcr img {
+    width: 52%;
+  }
+  .redcr {
+    top: 566px;
+  }
+  .bluecr img {
+    width: 66%;
+  }
+  .bluecr {
+    top: 522px;
+    right: -80px;
+  }
+  .menuh li {
+    padding-right: 19px;
+  }
+  .menuh li a {
+    font-size: 8px;
+  }
+  .textg {
+    margin-left: 6px;
+  }
+
+
+  .foto img {
+    width: 30%;
+  }
+  .pinktext a {
+    font-size: 5px;
+  }
+  .carr1 div {
+    padding-top: 0px;
+  }
+  .carr2 {
+    left: 130px;
+  }
+  .carr3 {
+    left: 260px;
+  }
+  .kartoch3 {
+    top: 220.13px;
+    left: 10px;
+  }
+  .minitext p {
+    font-size: 6px;
+  }
+  .bigtext h1 {
+    font-size: 14px;
+    width: 102px;
+  }
+  .klik1 {
+    font-size: 21px;
+  }
+  .klik2 {
+    font-size: 21px;
+  }
+  
+
+  .text {
+    font-size: 11px;
+    margin-bottom: 11px;
+  }
+  .pngsh1 img {
+    max-width: 20%;
+  }
+  .pngsh2 img {
+    max-width: 20%;
+  }
+  .cart {
+    margin-bottom: 2px;
+  }
+  .textic {
+    margin-top: 1px;
+    font-size: 8px;
+  }
+  .moreflower {
+    left: 691px;
+    top: 1439px;
+  }
+
+}
+
+
+
+
