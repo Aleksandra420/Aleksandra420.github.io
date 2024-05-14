@@ -1,0 +1,862 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  
+  .wrapper 
+  {
+    min-height: 840px;
+    width: 100%;
+  }
+  
+  body 
+  {
+    overflow-x: hidden;
+    font-family: 'Roboto';
+  }
+
+/* kartinka 1 */
+
+.content1
+{
+    width: 100%;
+    height: 840px;
+    background-color: #280404;
+    position: relative;
+}
+
+.header
+{
+    width: 100%;
+    height: 97px;
+    padding: 30px 190px 33px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.gardenh img
+{
+    max-width: 100%;
+}
+
+.menuh
+{
+    width: 553.64px;
+    height: 31px;
+    padding: 6px 0px 10px 0px;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.menuh li
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.menuh li a
+{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.body1
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 97px 345px 54px 39px;
+}
+
+.women {
+  position: relative;
+}
+.women > img {
+  max-width: 100%;
+}
+
+.textg
+{
+  max-width: 524px;
+  max-height: 548px;
+  padding: 0px 0px 0px 100px;
+
+}
+
+.textg h1
+{
+  font-family: Roboto;
+  font-size: 53px;
+  font-weight: 900;
+  line-height: 84.15px;
+  letter-spacing: 7.650000095367432px;
+  text-align: left;
+  color: #D7B9E4;
+
+}
+
+.textg p
+{
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 37.2px;
+  letter-spacing: 0.23999999463558197px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 20px;
+
+}
+
+.textg img
+{
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.redcr
+{
+  display: block;
+  position: absolute;
+  width: 298px;
+  height: 216px;
+  left:0px;
+  top: 664px;
+  z-index:2;
+}
+
+.redcr img 
+{
+  max-width: 100%;
+}
+
+.bluecr 
+{
+  display: block;
+  position: absolute;
+  width: 222px;
+  height: 178px;
+  top: 662px;
+  right: 0px;
+}
+
+.flowerh 
+{
+  display: block;
+  width: 260.93px;
+  height: 199.99px;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0;
+}
+
+/* kartinka 2 */
+
+.content2
+{
+  width: 100%;
+  height: 628px;
+  background-color: #251d1e;
+  position: relative;
+}
+
+.body2
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.kartoch3
+{
+  display: flex;
+  padding-top: 185px;
+  width: 85%;
+  justify-content: center;
+}
+.carr:not(:first-child)
+{
+  padding-left: 25px;
+}
+
+.ctrelki
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.klik1
+{
+  display: inline-block;
+  border-radius: 0px 54px 54px 0px;
+  background: #895757;
+  color: #000;
+  font-size: 48px;
+  padding: 26px 17px 26px 3px;
+  line-height: 15px;
+  border: none;
+}
+.klik2
+{
+  display: inline-block;
+  color: #000;
+  font-size: 48px;
+  border-radius: 54px 0px 0px 54px;
+  background: #895757;
+  padding: 26px 3px 26px 17px;
+  line-height: 15px;  
+  border: none;
+}
+
+.pinktext a
+{
+  padding-top: 37px;
+  background-color: #c5a0a0;
+  border-radius: 30px;
+  height: 30px;
+  width: 102px;
+}
+
+.pinktext a
+{
+  text-decoration: none;
+  padding: 7px 15px 8px 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 2.08px;
+  color: #100304;
+  text-transform: uppercase;
+
+}
+
+.pinktext
+{
+  padding-top: 15px;
+}
+
+.bigtext h1
+{
+  padding-top: 15px;
+  font-style: normal;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  letter-spacing: 4.159999847412109px;
+  color: #c5a0a0;
+  text-transform: uppercase;
+  width: 352px;
+}
+
+.minitext p
+{
+  padding-top: 15px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  color: #c5a0a0;
+}
+
+/* kartinka 3 */
+
+.content3
+{
+  width: 100%;
+  height: 2400px;
+  position: relative;
+  background-color: #222121;
+}
+
+.body3
+{
+  display: flex;
+  padding: 43px 199px 57px 216px;
+  width: 100%;
+  justify-content: center;
+}
+#kol2
+{
+  padding-left: 200px;
+}
+
+.textic
+{
+  padding-top: 60px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 4.800000190734863px;
+  text-align: left;
+  color: #e5e0e0;
+  text-transform: uppercase;
+}
+.pngsh
+{
+  padding-top: 100px;
+  padding-left: 30px;
+  max-width: 100%;
+}
+
+.pngsh img 
+{
+  width: 100%;
+}
+
+.text
+{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Roboto;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 84.15px;
+  letter-spacing: 7.650000095367432px;
+  text-align: left;
+  color:#e5e0e0;
+
+}
+
+.moreflower
+{
+  display: block;
+  width: 333px;
+  height: 476px;
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: 2157px;
+}
+
+
+/* kartinka 4 */
+
+.content4
+{
+  width: 100%;
+  height: 863px;
+  position: relative;
+  background-color:#251d1e;
+}
+
+.body4
+{
+  display: flex;
+  padding: 131px 183px 67px 66px;
+}
+
+.pingirl img
+{
+  width: 100%;
+}
+
+.rep
+{
+  width: 675px;
+  padding-top: 70px;
+  padding-left: 60px;
+}
+.rep div:not(:first-child)
+{
+  padding-top: 30px;
+}
+
+
+.rep h1
+{
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: 5.119999885559082px;
+  text-align: left;
+  color: #c5a0a0;
+  text-transform: uppercase;
+
+}
+
+.rep p
+{
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: left;
+  color: #c5a0a0;
+
+}
+
+.rep a
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 45px;
+  background: #895757;
+}
+
+.rep a
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: left;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 40px 16px 40px;
+}
+
+.yellow
+{
+  display: block;
+  width: 173px;
+  height: 252px;
+  position: absolute;
+  top: 507px;
+}
+
+/* kartinka 5 */
+
+.repeat{
+  width: 100%;
+  height: 69px;
+  position: relative;
+  background: #70767d;
+}
+
+.repeat img
+{
+  position: absolute;
+  width: 100%;
+  height: 39px;
+  top: 15px;
+}
+
+.content5
+{
+  width: 100%;
+  height: 702px;
+  background: #222121;
+  position: relative;
+}
+
+
+.skrol
+{
+  position: absolute;
+  top: 316px;
+  width: 100%;
+  height: 331px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.tt img
+{
+  width: 100%;
+}
+
+.otext
+{
+  text-align: center;
+  position: relative;
+  top:100px
+}
+
+.otext div:not(:first-child)
+{
+  padding-top: 30px;
+}
+
+.ctrelki2
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.kliki
+{
+  display: inline-block;
+  border-radius: 0px 54px 54px 0px;
+  background: #999999;
+  color: #000;
+  font-size: 48px;
+  padding: 26px 17px 26px 3px;
+  line-height: 15px;
+  border: none;
+}
+.klikt
+{
+  display: inline-block;
+  color: #000;
+  font-size: 48px;
+  border-radius: 54px 0px 0px 54px;
+  background: #999999;
+  padding: 26px 3px 26px 17px;
+  line-height: 15px;  
+  border: none;
+}
+
+.otext h1
+{
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70.4px;
+  letter-spacing: 5.119999885559082px;
+  text-align: center;
+  color: #e5e0e0;
+}
+
+.otext p
+{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: center;
+  color: #e5e0e0;
+}
+
+.otext h3
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: center;
+  color: #e5e0e0;
+}
+
+/* kartinka 6 */
+
+.content6
+{
+  width: 100%;
+  height: 547px;
+  background: #4c4c4c;
+  position: relative;
+}
+
+.verh
+{
+  width: 85%;
+  height: 173px;
+  display: flex;
+  padding-left: 120px;
+  padding-top: 40px;
+  justify-content: space-between;
+
+}
+
+.text_podtext h1
+{
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 35.1px;
+  letter-spacing: 4.320000171661377px;
+  text-align: left;
+  width: 424px;
+  height: 36px;
+  color: #FFFFFF;
+}
+
+.text_podtext p
+{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.55px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: left;
+  width: 552px;
+  height: 33px;
+  padding-top: 15px;
+  color: #FFFFFF;
+}
+
+.lastklik a
+{
+  width: 236px;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  position: relative;
+  top:30px;
+}
+
+.lastklik a
+{
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: center;
+  color: #4c4c4c;
+  padding: 16px 40px 16px 40px;
+}
+
+.line
+{
+  height: 1px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.center
+{
+  width: 100%;
+  height: 302px;
+}
+
+.podcenter
+{
+  width: 85%;
+  height: 300px;
+  position: relative;
+  padding-top:50px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slovmnogo
+{
+  width: 577.5px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.slovmnogo p
+{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.5px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.slovmnogo p:first-child
+{
+  padding-top: 0px;
+}
+
+.ctol2
+{
+  padding-left: 140px;
+}
+
+
+.adr p
+{
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32.3px;
+  letter-spacing: 0.1899999976158142px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 5px;
+}
+
+.ostatki
+{
+  padding-left: 120px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.ostatki p
+{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.9800000190734863px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 8px;
+}
+
+.ostatki p:first-child
+{
+  font-weight: 700;
+  padding-left: 0px;
+}
+
+@media (max-width: 1355px)
+{
+    .textg
+    {
+      padding: 36px 0px 0px 100px;
+    }
+    .text
+    {
+      font-size: 41px;
+    }
+    .content3
+    {
+      height: 2045px;
+    }
+
+    .moreflower
+    {
+      top: 1793px;
+    }
+
+}
+
+@media (max-width: 1202px)
+{
+  .verh
+ {
+    width: 97%;
+    padding-left: 42px;
+  }
+  .text_podtext h1 
+  {
+    font-size: 24px;
+  }
+  .text_podtext p 
+  {
+    font-size: 17px;
+    padding-top: 8px;
+  }
+
+}
+
+@media (max-width: 894px)
+{
+  .verh
+  {
+    display: block;
+    padding:0px;
+    text-align: center;
+    padding-top: 27px;
+  }
+
+  .text_podtext p
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text_podtext h1
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ctol2 
+  {
+    padding-left: 44px;
+  }
+
+  .ostatki {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px){
+  .podcenter {
+    padding-left: 76px;
+    
+  }
+
+}
+
+@media (max-width: 751px)
+{
+  .text_podtext p 
+  {
+    font-size: 0;
+    padding-top: 0px;
+  }
+  .podcenter
+  {
+    padding-left: 5px;
+  }
+  .adr p
+  {
+    font-size: 0px;
+  }
+
+  .ostatki p {
+    font-size:12px;
+  }
+}
+@media (max-width: 414px)
+{
+  .palki img
+  {
+    width: 0%;
+  }
+
+}
+@media (max-width: 376px){
+  .ostatki p {
+    font-size:7px;
+  }
+}
