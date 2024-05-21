@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <div id="preloader"></div>
 
     <div class="wrapper">
         <!-- kartinca 1 -->  
@@ -125,8 +126,8 @@
                 </div>
 
                 <div class="ctrelki">
-                    <button class="klik1" href="#"> < </button>
-                    <button class ="klik2" href="#"> > </button>
+                    <button class="klik1" href="#" id="left"> < </button>
+                    <button class ="klik2" href="#" id="right"> > </button>
                 </div>
 
             </div>
@@ -274,25 +275,25 @@
                     
                 <div class="skrol">
                     <div class = "tt">
-                        <img src="cap.png" alt="skrole">
+                        <img src="cap.png" alt="skrole" id="img1">
                     </div>
     
                     <div class = "tt">
-                        <img src="griaz.png" alt="skrole">
+                        <img src="griaz.png" alt="skrole" id="img2">
                     </div>
 
                     <div class = "tt">
-                        <img src="covid.png" alt="skrole">
+                        <img src="covid.png" alt="skrole" id="img3">
                     </div>
     
                     <div class = "tt">
-                        <img src="chb.png" alt="skrole">
+                        <img src="chb.png" alt="skrole" id="img4">
                     </div>
                 </div>
 
                 <div class="ctrelki2">
-                    <button class="kliki" href="#"> < </button>
-                    <button class ="klikt" href="#"> > </button>
+                    <button class="kliki" href="#" onclick="zooml()"> < </button>
+                    <button class ="klikt" href="#" onclick="zoomr()">  > </button>
                 </div>
 
             </div>
@@ -313,7 +314,7 @@
                 </div>
 
                 <div class="lastklik">
-                    <a href="#">NEWSLETTER SIGNUP</a>
+                    <a  id="myBtn" href="#">NEWSLETTER SIGNUP</a>
                 </div>
             </div>
             
@@ -367,9 +368,20 @@
 
 
     </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>temporarily unvailable</p>
+        </div>
+  
+    </div>
     
 </body>
-    <script src="index.js"></script>
+<script src="index.js"></script> 
 </html>
 
 
